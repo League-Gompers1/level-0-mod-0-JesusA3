@@ -37,9 +37,9 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         URL url;
         try {
             //1. Find a picture of a rock, paper, and scissors on the internet. Replace the URL's below with your images
-            rockImage = ImageIO.read(new URL("https://image.freepik.com/free-icon/letter-x_318-26692.jpg"));  
-            paperImage = ImageIO.read(new URL("https://image.freepik.com/free-icon/letter-x_318-26692.jpg")); 
-            scissorsImage = ImageIO.read(new URL("https://image.freepik.com/free-icon/letter-x_318-26692.jpg")); 
+            rockImage = ImageIO.read(new URL("http://3.bp.blogspot.com/_r4Klv8u2tgU/TUoHNFgy8aI/AAAAAAAANrE/AeOXyrwEgKo/s1600/Gray%2BLava%2BMoss%2BRock.JPG"));  
+            paperImage = ImageIO.read(new URL("https://mediaserver.goepson.com/ImConvServlet/imconv/d9b5b9473246befb23d1b09e34cc783711e83ba6/96Wx96H?use=productpictures")); 
+            scissorsImage = ImageIO.read(new URL("https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Scissors_icon_black.svg/1280px-Scissors_icon_black.svg.png")); 
         } catch (MalformedURLException ex) {
             Logger.getLogger(RockPaperScissors.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

@@ -17,7 +17,8 @@ public class IntroToRandom {
 		//Create an object of the Random class here
 
 		int r = 0;
-		
+		r=new Random().nextInt((75-25)+25);
 		System.out.println(r); 
+		r=new Random().nextInt(88+222);
 	}
 }
